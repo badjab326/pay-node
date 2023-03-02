@@ -23,4 +23,4 @@ COPY --from=builder /home/node/app/build ./build
 
 EXPOSE 3000
 
-CMD ["nodemon", "dist/server.js"]
+CMD ["node", "dist/server.js"]
