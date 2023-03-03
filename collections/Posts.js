@@ -5,7 +5,10 @@ const Posts = {
     useAsTitle: 'title',
   },
   access: {
+    create: () => true,
     read: () => true,
+    update: () => true,
+    delete: () => true,
   },
   fields: [
     {

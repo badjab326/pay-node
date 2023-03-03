@@ -5,7 +5,10 @@ const Users = {
     useAsTitle: 'email',
   },
   access: {
+    create: () => true,
     read: () => true,
+    update: () => true,
+    delete: () => true,
   },
   fields: [
     // Email added by default
